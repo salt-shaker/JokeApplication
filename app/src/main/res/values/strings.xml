@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Joke Application</string>
+    <string name="joke1">Why did the chicken cross the road?</string>
+    <string name="joke2">What did the banana say to the orange?</string>
+    <string name="joke3">Whats red and smells like blue paint?</string>
+    <string name="joke4">What do you call a bear with no ear?</string>
+    <string name="joke5">What is a camels favorite day?</string>
+    <string name="joke6">What color can also play music?</string>
+</resources>
