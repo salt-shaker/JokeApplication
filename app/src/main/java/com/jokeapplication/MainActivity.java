@@ -10,7 +10,7 @@ import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
 
-    Button btn_joke1, btn_joke2, btn_joke3, btn_joke4, btn_joke5, btn_joke6;
+    Button btn_joke1, btn_joke2, btn_joke3, btn_joke4, btn_joke5, btn_joke6, btn_joke7;
 
     TextView tv_message;
 
@@ -25,6 +25,7 @@ public class MainActivity extends AppCompatActivity {
         btn_joke4 = findViewById(R.id.btn_joke4);
         btn_joke5 = findViewById(R.id.btn_joke5);
         btn_joke6 = findViewById(R.id.btn_joke6);
+        btn_joke7 = findViewById(R.id.btn_joke7);
 
         tv_message = findViewById(R.id.tv_message);
 
@@ -56,24 +57,30 @@ public class MainActivity extends AppCompatActivity {
         btn_joke4.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                tv_message.setText("B");
+                tv_message.setText(getString(R.string.joke4_a));
             }
         });
 
         btn_joke5.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                tv_message.setText("Hump Day!");
+                tv_message.setText(getString(R.string.joke5_a));
             }
         });
 
         btn_joke6.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                tv_message.setText("The Blues!");
+                tv_message.setText(getString(R.string.joke6_a));
             }
         });
 
+        btn_joke7.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                tv_message.setText(getString(R.string.joke7_a));
+            }
+        });
     }
 
 }
